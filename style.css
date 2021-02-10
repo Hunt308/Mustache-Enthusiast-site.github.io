@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background: #fff;
     color: #000;
@@ -117,3 +121,33 @@ ul{
     background: #1fc3bc;
 }
 
+
+/*Cards */
+
+.cards .container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards img{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.cards ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cards ul li{
+
+    list-style: none;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0px 135px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+
+}
