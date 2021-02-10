@@ -1,5 +1,7 @@
 /* Global */
 
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
 body{
     background: #fff;
     color: #000;
@@ -48,8 +50,10 @@ ul{
 .main-nav a{
     text-decoration: none;
     color: #000;
-    font-family: Arial;
+    font-family: 'Poller One';
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
     
 }
 
