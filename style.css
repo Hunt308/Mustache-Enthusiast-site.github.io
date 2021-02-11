@@ -165,7 +165,19 @@ ul{
 
 /* Media Queries */
 
-@media(max-width:800px){
+
+@media(max-width: 1000px){
+    .cards h3{
+        margin-right: 70px;
+    }
+
+    .cards{
+        margin-right: 100px;
+    }
+
+}
+
+@media(max-width:900px){
     .cards .container, .main-nav ul{
         margin-top: 25px;
         display: flex;
@@ -181,6 +193,8 @@ ul{
         text-align: center;
 
     }
+
+    
 
     .showcase p{
         margin: 20px 50px;
