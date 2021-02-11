@@ -159,24 +159,84 @@ ul{
     padding: 20px 25px 15px 25px;
     background: #252525;
     color: #fff;
+    text-align: center;
 }
 
 
+/* Media Queries */
 
-.footer ul{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-    margin-right: 150px;
+@media(max-width:800px){
+    .cards .container, .main-nav ul{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .showcase{
+       height: 600px;
+    }
+
+    .showcase h3{
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+    .showcase p{
+        margin: 20px 50px;
+        padding: 10px;
+        font-size: 25px;
+        justify-content: center;
+        color: purple;
+        font-weight: bold;
+        background: none;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .showcase a{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cards{
+        margin-top: 300px;
+    }
+
+    .cards ul li{
+        margin: 0px 50px;
+    }
+
+    a{
+        display: block;
+    }
 }
 
-.footer p{
-    margin-left: 40px;
-}
 
+@media(max-width:500px){
+    .showcase h3{
+        font-size: 15px;
+    }
 
-.footer li{
-    list-style: none;
-    margin-right: 25px;
+    .showcase img{
+        display: none;
+    }
 
+    showcase p{
+        padding: 20px;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .showcase a{
+        margin-bottom: 20px;
+    }
+
+    .cards ul li{
+        margin: 0px 25px;
+    }
+
+    a{
+        display: block;
+    }
 }
